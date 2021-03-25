@@ -115,7 +115,7 @@ class Character:
                         "int": 4,
                         "wis": 5
                     },
-                0:                  #this is the else case since you are rolling numbers starting at 1 this will be every time true
+                100:                  #this is the else case since you are rolling numbers ending on 100 this will be every time true
                     {
                         "str": 0,
                         "con": 1,
@@ -127,7 +127,7 @@ class Character:
             },
         "Bard":
             {
-                0:
+                100:
                     {
                         "cha": 0,
                         "dex": 1,
@@ -157,7 +157,7 @@ class Character:
                         "int": 4,
                         "str": 5
                     },
-                0:
+                100:
                     {
                         "int": 0,
                         "con": 1,
@@ -178,7 +178,7 @@ class Character:
                         "cha": 4,
                         "int": 5
                     },
-                0:
+                100:
                     {
                         "wis": 0,
                         "con": 1,
@@ -190,7 +190,7 @@ class Character:
             },
             "Druid":
                 {
-                    0:
+                    100:
                         {
                             "wis": 0,
                             "con": 1,
@@ -202,7 +202,7 @@ class Character:
                 },
             "Monk":
                 {
-                    0:
+                    100:
                         {
                             "dex": 0,
                             "wis": 1,
@@ -223,7 +223,7 @@ class Character:
                             "con": 4,
                             "int": 5
                         },
-                    0:
+                    100:
                         {
                             "str": 0,
                             "cha": 1,
@@ -244,7 +244,7 @@ class Character:
                             "int": 4,
                             "cha": 5
                         },
-                    0:
+                    100:
                         {
                             "str": 0,
                             "wis": 1,
@@ -265,7 +265,7 @@ class Character:
                             "int": 4,
                             "str": 5
                         },
-                    0:
+                    100:
                         {
                             "dex": 0,
                             "int": 1,
@@ -286,7 +286,7 @@ class Character:
                             "int": 4,
                             "str": 5,
                         },
-                    0:
+                    100:
                         {
                             "cha": 0,
                             "con": 1,
@@ -316,7 +316,7 @@ class Character:
                         "str": 4,
                         "cha": 5,
                     },
-                0:
+                100:
                     {
                         "int": 0,
                         "dex": 1,
@@ -337,7 +337,7 @@ class Character:
                         "int": 4,
                         "str": 5,
                     },
-                0:
+                100:
                     {
                         "cha": 0,
                         "con": 1,
